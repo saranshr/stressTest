@@ -45,7 +45,7 @@ def stressTEST(N,M):
             print('Fast Time = ',resultFast[1],' seconds')
             print('Faster solution approx.',int(resultNormal[1]/resultFast[1]),' times faster than normal solution')
         else:
-            print('Wrong answer:',resultNormal,resultFast)
+            print('Wrong answer:',resultNormal[0],resultFast[0])
             break
 
 stressTEST(50000,100000000000000)
